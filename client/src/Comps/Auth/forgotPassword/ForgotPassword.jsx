@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "hidden",
   },
   paper: {
-    width:"300px",
+    width: "300px",
     padding: "25px",
     display: "flex",
     flexDirection: "column",
@@ -47,7 +47,7 @@ const ForgotPassword = () => {
     setError("");
     try {
       const response = await axios.post(
-        "http://localhost:5000/user/forgotPasswordlink",
+        "https://mern-expense-tracker-webapp.up.railway.app/user/forgotPasswordlink",
         { email: emailValue }
       );
       setMessage(response.data.message);

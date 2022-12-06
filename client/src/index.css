@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
+  margin:0;
+  padding:0;
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?size=626&ext=jpg&ga=GA1.2.605537194.1647674229");
   background-size: cover;

@@ -127,9 +127,6 @@ const SignUp = () => {
             >
               Sign Up
             </Button>
-            <Typography fontSize="13px" variant="body1" align="center">
-              OR
-            </Typography>
             <Typography variant="body1" align="right">
               Already have an account?
               <Link to="/auth/login" style={{ textDecorationLine: "none" }}>

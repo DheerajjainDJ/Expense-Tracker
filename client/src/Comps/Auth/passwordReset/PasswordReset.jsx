@@ -54,7 +54,7 @@ const ForgotPassword = () => {
     setError("");
     try {
       const response = await axios.post(
-        `http://localhost:5000/user/forgotPasswordReset/${param.id}`,
+        `https://mern-expense-tracker-webapp.up.railway.app/user/forgotPasswordReset/${param.id}`,
         { password: password }
       );
       setMessage(response.data.message);

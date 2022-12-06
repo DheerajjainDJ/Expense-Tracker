@@ -100,9 +100,6 @@ const LogIn = () => {
             >
               log in
             </Button>
-            <Typography fontSize="13px" variant="body1" align="center">
-              OR
-            </Typography>
             <Stack direction="row" justifyContent="space-between">
               <Link
                 to="/forgot-password"
